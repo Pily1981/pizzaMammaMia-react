@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+Body
+{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+Nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #3e3f3e;
+}
+
+.boton1:hover {
+  border: 1px solid #ffffff;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.boton2{
+  border: 2px solid #0000ff;
+  border-radius: 5px;
+}
+
+.boton2:hover {
+  background-color: black;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(54, 54, 54, 0.5)), url(/src/assets/img/headerpizza.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  color: white;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home {
+  background-color: #3e3f3e;
+}
+
+Footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0 5px 0;
+}
+
+Footer h6{
+  font-size: 14px;
+}
